@@ -1,0 +1,22 @@
+{
+    "short_name": "Xavier",
+    "name": "Xavier's_PWA",
+    "description": "A simple text editor that works offline.",
+    "icons": [
+      {
+        "src": "images/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#317EFB",
+    "background_color": "#FFFFFF"
+  }
+  

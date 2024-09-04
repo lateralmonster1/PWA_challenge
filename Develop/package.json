@@ -1,0 +1,26 @@
+{
+  "name": "Xavier's_PWA",
+  "version": "1.0.0",
+  "private":true,
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "",
+    "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\"",
+    "server": "npm start --prefix server",
+    "build": "npm run build --prefix client",
+    "install": "all",
+    "client": "npm start --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
