@@ -9,7 +9,7 @@
     "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\"",
     "server": "npm start --prefix server",
     "build": "npm run build --prefix client",
-    "install": "all",
+    "install": "npm install",
     "client": "npm start --prefix client"
   },
   "keywords": [],
