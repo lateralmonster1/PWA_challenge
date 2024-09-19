@@ -24,12 +24,12 @@ cd PWA_challenge.
 
 2. Install Dependencies
 Install all necessary dependencies for both client and server by running the following from the project root:
-bash
+``bash
 npm run install:all
 
 3. Build the Application
 To create a production build of the client:
-bash
+``bash
 npm start
 
 5. Start the Application
